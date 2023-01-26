@@ -66,7 +66,7 @@ public class Main {
 
     }
 
-    //Задание 4
+    //Задание 5
     public static <T, U> Function<T, U> ternaryOperator(
             Predicate<? super T> condition,
             Function<? super T, ? extends U> ifTrue,
@@ -91,7 +91,7 @@ public class Main {
             x -> x / 2,
             x -> x * 3);
 }
-
+//Задание 5
 class check {
     public static <T, U> Function<T, U> ternaryOperator(
             Predicate<? super T> condition,
